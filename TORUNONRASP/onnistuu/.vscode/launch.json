@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch on GDB",
+            "program": "${workspaceFolder}/build/onnistuu",  // Path to your executable
+            "stopOnEntry": false,
+            "arguments": "",
+            "preLaunchTask": "cmake"  // Run the cmake build task before launching the program
+        }
+    ]
+}

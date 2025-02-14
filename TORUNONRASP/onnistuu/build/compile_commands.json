@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/KURKI/github/onnistuu/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/onnistuu.dir/main.cpp.o -c /home/KURKI/github/onnistuu/main.cpp",
+  "file": "/home/KURKI/github/onnistuu/main.cpp"
+}
+]
