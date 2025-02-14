@@ -76,15 +76,22 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\MahonyAHRS.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\MPU6886.cpp" />
     <ClCompile Include="..\ConsoleApplication2\MotorServopair.cpp" />
     <ClCompile Include="..\ConsoleApplication2\SensorIAM.cpp" />
     <ClCompile Include="..\ConsoleApplication2\SensorIMU.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\MPU6886.h" />
     <ClInclude Include="..\ConsoleApplication2\MotorServopair.h" />
     <ClInclude Include="..\ConsoleApplication2\SensorIAM.h" />
     <ClInclude Include="..\ConsoleApplication2\SensorIMU.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Console(linux).rc" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
